@@ -14,7 +14,7 @@ he:
         otp: נא להקליד קוד אימות דו-גורמי ממכשירך או קוד אחזור גישה.
     labels:
       defaults:
-        avatar: אווטאר
+        avatar: יַצְגָן
         confirm_new_password: אישור סיסמא חדשה
         confirm_password: אישור סיסמא
         current_password: סיסמא נוכחית
@@ -25,7 +25,7 @@ he:
         locale: שפה
         locked: הפוך חשבון לפרטי
         new_password: סיסמא חדשה
-        note: ביו
+        note: אודות
         otp_attempt: קוד אימות דו-גורמי
         password: סיסמא
         setting_boost_modal: הצגת דיאלוג אישור לפני הדהוד
@@ -37,9 +37,9 @@ he:
         must_be_follower: חסימת התראות משאינם עוקבים
         must_be_following: חסימת התראות משאינם נעקבים
       notification_emails:
-        digest: שליחת דואלים מסכמים
+        digest: שליחת הודעות דואל מסכמות
         favourite: שליחת דואל כשמחבבים חצרוץ
-        follow: שליחת דואל כשומתחילים לעקוב
+        follow: שליחת דואל כשנוספות עוקבות
         follow_request: שליחת דואל כשמבקשים לעקוב
         mention: שליחת דואל כשפונים אלייך
         reblog: שליחת דואל כשמהדהדים חצרוץ שלך
