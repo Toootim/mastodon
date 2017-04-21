@@ -4,6 +4,7 @@ import es from './es';
 import he from './he';
 import hr from './hr';
 import hu from './hu';
+import io from './io';
 import it from './it';
 import fr from './fr';
 import nl from './nl';
@@ -27,6 +28,7 @@ const locales = {
   he,
   hr,
   hu,
+  io,
   it,
   fr,
   nl,
