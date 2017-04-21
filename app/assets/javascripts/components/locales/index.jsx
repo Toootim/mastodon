@@ -20,6 +20,7 @@ import ja from './ja';
 import zh_hk from './zh-hk';
 import zh_cn from './zh-cn';
 import bg from './bg';
+import id from './id';
 
 const locales = {
   en,
@@ -43,6 +44,7 @@ const locales = {
   'zh-HK': zh_hk,
   'zh-CN': zh_cn,
   bg,
+  id,
 };
 
 export default function getMessagesForLocale (locale) {
