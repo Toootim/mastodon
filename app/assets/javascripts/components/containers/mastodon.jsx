@@ -1,4 +1,5 @@
 import { Provider } from 'react-redux';
+import PropTypes from 'prop-types';
 import configureStore from '../store/configureStore';
 import {
   refreshTimelineSuccess,
@@ -98,11 +99,7 @@ addLocaleData([
   ...id,
 ]);
 
-const Mastodon = React.createClass({
-
-  propTypes: {
-    locale: React.PropTypes.string.isRequired
-  },
+class Mastodon extends React.Component {
 
   componentDidMount() {
     const { locale }  = this.props;
@@ -147,14 +144,14 @@ const Mastodon = React.createClass({
     }
 
     store.dispatch(showOnboardingOnce());
-  },
+  }
 
   componentWillUnmount () {
     if (typeof this.subscription !== 'undefined') {
       this.subscription.close();
       this.subscription = null;
     }
-  },
+  }
 
   render () {
     const { locale } = this.props;
@@ -197,6 +194,10 @@ const Mastodon = React.createClass({
     );
   }
 
-});
+}
+
+Mastodon.propTypes = {
+  locale: PropTypes.string.isRequired
+};
 
 export default Mastodon;
