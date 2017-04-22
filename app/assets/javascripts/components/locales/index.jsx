@@ -34,6 +34,7 @@ const locales = {
   fr,
   nl,
   no,
+  oc,
   pt,
   'pt-BR': pt_br,
   uk,
