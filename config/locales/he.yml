@@ -4,7 +4,7 @@ he:
     about_mastodon: מסטודון היא רשת חברתית <em>חופשית, מבוססת תוכנה חופשית ("קוד פתוח")</em>. כאלטרנטיבה <em>בלתי ריכוזית</em> לפלטפרומות המסחריות, מסטודון מאפשרת להמנע מהסיכונים הנלווים להפקדת התקשורת שלך בידי חברה יחידה. שמת את מבטחך בשרת אחד &mdash; לא משנה במי בחרת, תמיד אפשר לדבר עם כל שאר המשתמשים. לכל מי שרוצה יש את האפשרות להקים שרת מסטודון עצמאי, ולהשתתף ב<em>רשת החברתית</em> באופן חלק.
     about_this: אודות שרת זה
     apps: ישומים
-    business_email: 'אימייל עסקי:'
+    business_email: 'דוא"ל עסקי:'
     closed_registrations: הרשמות סגורות לשרת זה לעת עתה.
     contact: צור קשר
     description_headline: מהו %{domain}?
@@ -17,7 +17,7 @@ he:
       chronology: הטורים כרונולוגיים
       ethics: 'עיצוב מוסרי: אין פרסומות, אין מעקב'
       gifv: GIFV וסרטונים קצרים
-      privacy: אפשרויות פרטיות נפרדות לכל הודעה
+      privacy: אפשרויות פרטיוּת נפרדות לכל הודעה
       public: טורים פומביים
     features_headline: מה מייחד קהילות מבוססות מסטודון
     get_started: על ההתחלה
@@ -25,7 +25,7 @@ he:
     other_instances: שרתים אחרים
     source_code: קוד מקור
     status_count_after: הודעות
-    status_count_before: מי חיבר
+    status_count_before: שכתבו
     terms: תנאים
     user_count_after: משתמשים
     user_count_before: ביתם של
@@ -37,15 +37,15 @@ he:
     people_followed_by: הנעקבים של %{name}
     people_who_follow: העוקבים של %{name}
     posts: הודעות
-    remote_follow: עקיבה מרחוק
-    unfollow: הפסקת עקיבה
+    remote_follow: מעקב מרחוק
+    unfollow: הפסקת מעקב
   admin:
     accounts:
       are_you_sure: בטוח?
       display_name: שם לתצוגה
       domain: תחום
       edit: עריכה
-      email: דואל
+      email: 'דוא"ל'
       feed_url: כתובת פיד
       followers: עוקבים
       follows: נעקבים
@@ -59,7 +59,7 @@ he:
         all: הכל
         silenced: מושתקים
         suspended: מושהים
-        title: מיתון הדיון
+        title: ניהול קהילה
       most_recent_activity: פעילות עדכנית
       most_recent_ip: כתובות אחרונות
       not_subscribed: לא רשום
@@ -87,9 +87,9 @@ he:
       domain: שרת
       new:
         create: יצירת חסימה
-        hint: חסימת השרת לא תמנע יצירת רישומי חשבון במסד הנתונים, אבל תבצע פעולות מיתון דיון מסוימות על חשבונות אלו אוטומטית ורטרואקטיבית.
+        hint: חסימת השרת לא תמנע יצירת רישומי חשבון במסד הנתונים, אבל תבצע פעולות ניהול קהילה מסוימות על חשבונות אלו אוטומטית ורטרואקטיבית.
         severity:
-          desc_html: "<strong>השתקה</strong> תחביא הודעות מחשבון זה לכל מי שלא עוקב אחריו. <strong>השהיה</strong> תסיר את כל התוכן, מדיה ותכונות הפרופיל שמקושרות לחשבון זה."
+          desc_html: "<strong>השתקה</strong> תחביא הודעות מחשבון זה לכל מי שלא עוקב אחריו. <strong>השהיה</strong> תסיר מהשרת את כל התוכן, מדיה ותכונות הפרופיל שמקושרות לחשבון זה."
           silence: השתקה
           suspend: השהיה
         title: חסימת שרת חדשה
@@ -101,7 +101,7 @@ he:
       severity: חוּמרה
       show:
         affected_accounts:
-          one: חשבון אחד במסד הנתונים מושפע 
+          one: חשבון אחד במסד הנתונים מושפע
           other: "%{count} חשהבונות במסד הנתונים מושפעים"
         retroactive:
           silence: הסרת השתקה מכל החשבונות על שרת זה
@@ -138,7 +138,7 @@ he:
     settings:
       click_to_edit: לחיצה כדי לערוך
       contact_information:
-        email: נא להקליד כתובת דואל פומבית
+        email: 'נא להקליד כתובת דוא"ל פומבית'
         label: פרטי התקשרות
         username: נא להכניס שם משתמש
       registrations:
@@ -160,7 +160,7 @@ he:
       title: הגדרות אתר
     title: ניהול
   application_mailer:
-    settings: 'שינוי הגדרות דואל: %{link}'
+    settings: 'שינוי הגדרות דוא"ל: %{link}'
     signature: התראות מסטודון מעם %{instance}
     view: 'תצוגה:'
   applications:
@@ -176,9 +176,9 @@ he:
     reset_password: איפוס סיסמא
     set_new_password: שינוי סיסמא
   authorize_follow:
-    error: למצער, היתה שגיאה בחיפוש החשבון המרוחק
+    error: למרבה הצער, היתה שגיאה בחיפוש החשבון המרוחק
     follow: לעקוב
-    prompt_html: 'בקשת עקיבה ממך (<strong>%{self}</strong>) אחרי:'
+    prompt_html: 'בקשת מעקב ממך (<strong>%{self}</strong>) אחרי:'
     title: לעקוב אחרי %{acct}
   datetime:
     distance_in_words:
@@ -211,15 +211,15 @@ he:
     powered_by: רץ על %{link}
     save_changes: שמור שינויים
     validation_errors:
-      one: משהו לא לגמרי בסדר עדיין! אנא הציצו על השגיאות מטה
+      one: משהו לא לגמרי בסדר עדיין! אנא הציצו על השגיאה מטה
       other: משהו לא לגמרי בסדר עדיין! אנא הציצו על %{count} השגיאות מטה
   imports:
-    preface: ניתן ליבא מידע מסויים כגון כל הנעקבים או המשתמשים החסומים  לתוך חשבונך על שרת זה, מתוך קבצים שנוצרו על ידי יצוא משרת אחר.
+    preface: ניתן ליבא מידע מסויים כגון כל הנעקבים או המשתמשים החסומים לתוך חשבונך על שרת זה, מתוך קבצים שנוצרו על ידי יצוא משרת אחר.
     success: כל המידע יובא בהצלחה, ויעובד בזמן הקרוב
     types:
-      blocking: רשימת חסומים
+      blocking: רשימת חסימות
       following: רשימת נעקבים
-      muting: רשימת חסומים
+      muting: רשימת השתקות
     upload: יבוא
   landing_strip_html: <strong>%{name}</strong> על השרת <strong>%{domain}</strong>. ניתן לעקוב אחריהם או לדבר איתם בעזרת חשבון על כל שרת קהילה ברחבי הפדרציה. ליצירת חשבון, ניתן<a href="%{sign_up_path}">להרשם כאן</a>.
   media_attachments:
@@ -231,7 +231,7 @@ he:
       body: 'להלן סיכום זריז של הדברים שקרו על %{instance} מאז ביקורך האחרון ב-%{since}:'
       mention: "%{name} פנה אליך ב:"
       new_followers_summary:
-        one: נוסף לך עוקב! מברוק!
+        one: נוסף לך עוקב! סחתיין!
         other: נוספו לך %{count} עוקבים חדשים! מעולה!
       subject:
         one: "התראה חדשה אחת מאז ביקורך האחרון \U0001F418"
@@ -240,11 +240,11 @@ he:
       body: 'חצרוצך חובב על ידי %{name}:'
       subject: "חצרוצך חובב על ידי %{name}"
     follow:
-      body: "%{name} עכשיו בעקיבה אחריך!"
-      subject: "%{name} עכשיו בעקיבה אחריך"
+      body: "%{name} עכשיו במעקב אחריך!"
+      subject: "%{name} עכשיו במעקב אחריך"
     follow_request:
-      body: "התקבלה בקשת עקיבה מעם %{name}"
-      subject: 'בקשת עקיבה בהמתנה: %{name}'
+      body: "התקבלה בקשת מעקב מעם %{name}"
+      subject: 'בקשת מעקב בהמתנה: %{name}'
     mention:
       body: 'התקבלה פניה עבורך מעם %{name} ב:'
       subject: התקבלה פניה עבורך מעם %{name}
@@ -276,7 +276,7 @@ he:
     visibilities:
       private: להצגה לעוקבים בלבד
       public: פומבי
-      unlisted: פומבי, אבל לא להצגה בפומבי
+      unlisted: פומבי, אבל לא להצגה בפרהסיה
   stream_entries:
     click_to_show: ללחוץ להצגה
     reblogged: הודהד
@@ -292,12 +292,12 @@ he:
     enabled_success: אימות דו-גורמי הופעל בהצלחה
     instructions_html: "<strong>יש לסרוק קוד QR זה בעזרת Google Authenticator או ישום TOTP דומה על טלפונך</strong>. מעתה ואילך, ישום זה יוכל ליצר קודים לשימוש לצורך כניסה."
 lost_recovery_codes: קודי האחזור מאפשרים אחזור גישה לחשבון במידה ומכשירך אבד. במידה וקודי האחזור אבדו, ניתן לייצרם מחדש כאן. תוקף קודי האחזור הישנים יפוג.
-    manual_instructions: 'במידה ולא ניתן לסרוק את קוד ה-QR ויש צורך להקליד אותו ידנית, להלן סוד כמוס בלתי מוצפן:'
+    manual_instructions: 'במידה ולא ניתן לסרוק את קוד ה-QR אלא יש צורך להקליד אותו ידנית, להלן סוד כמוס בלתי מוצפן:'
     recovery_codes_regenerated: קודי האחזור יוצרו בהצלחה
     recovery_instructions: במידה והגישה למכשירך תאבד, ניתן לייצר קודי אחזור למטה על מנת לאחזר גישה לחשבונך בכל עת. נא לשמור על קודי הגישה במקום בטוח, לדוגמא על ידי הדפסתם ושמירתם עם מסמכים חשובים אחרים.
     setup: הכנה
     warning: באם אין ביכולתך להכין את ישום האימות כרגע, כדאי לבחור ב"כיבוי", אחרת אי אפשר יהיה להכנס חזרה לחשבון.
     wrong_code: הקוד שהוזן שגוי! האם הזמן בשרת והזמן במכשירך נכונים?
   users:
-    invalid_email: כתובת הדואל אינה חוקית
+    invalid_email: 'כתובת הדוא"ל אינה חוקית'
     invalid_otp_token: קוד דו-גורמי שגוי
