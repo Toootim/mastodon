@@ -9,6 +9,7 @@ module SettingsHelper
     eo: 'Esperanto',
     es: 'Español',
     eo: 'Esperanto',
+    fa: 'فارسی',
     fi: 'Suomi',
     fr: 'Français',
     hr: 'Hrvatski',
