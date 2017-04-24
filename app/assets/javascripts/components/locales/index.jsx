@@ -2,6 +2,7 @@ import ar from './ar';
 import en from './en';
 import de from './de';
 import es from './es';
+import fa from './fa';
 import he from './he';
 import hr from './hr';
 import hu from './hu';
@@ -28,6 +29,7 @@ const locales = {
   en,
   de,
   es,
+  fa,
   he,
   hr,
   hu,
