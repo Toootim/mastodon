@@ -1,5 +1,5 @@
 ---
-en:
+he :
   activerecord:
     attributes:
       doorkeeper/application:
