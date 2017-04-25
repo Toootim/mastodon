@@ -39,9 +39,20 @@ he:
     posts: הודעות
     remote_follow: מעקב מרחוק
     unfollow: הפסקת מעקב
+  activitypub:
+    outbox:
+      name: 'תיבת הדוא"ל היוצא של %{account_name}'
+      summary: "אוסף הפעילויות של המשתמש(ת) %{account_name}."
+    activity:
+      create:
+        name: "%{account_name} יצר(ה) הודעה."
+      announce:
+        name: "%{account_name} הודיע(ה) על פעילות."
   admin:
     accounts:
       are_you_sure: בטוח?
+      confirm: אשר
+      confirmed: אושר
       display_name: שם לתצוגה
       domain: תחום
       edit: עריכה
@@ -73,6 +84,10 @@ he:
       push_subscription_expires: הרשמה להודעות בדחיפה פגה
       reset_password: אתחול סיסמא
       salmon_url: כתובת סלמון
+      show:
+        created_reports: 'דיווחים מאת חשבון זה'
+        report: 'דו"ח'
+        targeted_reports: 'דיווחים נגד חשבון זה'
       silence: השתקה
       statuses: הודעות
       title: חשבונות
@@ -110,8 +125,12 @@ he:
         undo: ביטול
       title: חסימת שרתים
       undo: ביטול
+    instances:
+      account_count: חשבונות מוכרים
+      domain_name: שם מתחם
+      title: שרתים מוכרים
     pubsubhubbub:
-      callback_url: Callback URL
+      callback_url: קישורית Callback
       confirmed: מאושר
       expires_in: פג תוקף ב-
       last_delivery: משלוח אחרון
@@ -195,6 +214,7 @@ he:
       x_months: "%{count} חודשים"
       x_seconds: "%{count} שניות"
   errors:
+    '403': חסרות לך הרשאות לצפיה בעמוד זה.
     '404': הדף המבוקש לא קיים.
     '410': הדף המבוקש כבר לא קיים.
     '422':
@@ -290,8 +310,9 @@ he:
     disable: כיבוי
     enable: הפעלה
     enabled_success: אימות דו-גורמי הופעל בהצלחה
+    generate_recovery_codes: ייצור קודי אחזור
     instructions_html: "<strong>יש לסרוק קוד QR זה בעזרת Google Authenticator או ישום TOTP דומה על טלפונך</strong>. מעתה ואילך, ישום זה יוכל ליצר קודים לשימוש לצורך כניסה."
-lost_recovery_codes: קודי האחזור מאפשרים אחזור גישה לחשבון במידה ומכשירך אבד. במידה וקודי האחזור אבדו, ניתן לייצרם מחדש כאן. תוקף קודי האחזור הישנים יפוג.
+    lost_recovery_codes: קודי האחזור מאפשרים אחזור גישה לחשבון במידה ומכשירך אבד. במידה וקודי האחזור אבדו, ניתן לייצרם מחדש כאן. תוקף קודי האחזור הישנים יפוג.
     manual_instructions: 'במידה ולא ניתן לסרוק את קוד ה-QR אלא יש צורך להקליד אותו ידנית, להלן סוד כמוס בלתי מוצפן:'
     recovery_codes_regenerated: קודי האחזור יוצרו בהצלחה
     recovery_instructions: במידה והגישה למכשירך תאבד, ניתן לייצר קודי אחזור למטה על מנת לאחזר גישה לחשבונך בכל עת. נא לשמור על קודי הגישה במקום בטוח, לדוגמא על ידי הדפסתם ושמירתם עם מסמכים חשובים אחרים.
