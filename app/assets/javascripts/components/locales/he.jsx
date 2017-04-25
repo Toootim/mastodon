@@ -1,3 +1,13 @@
+/**
+ * Note for Contributors:
+ * This file (he.jsx) is based on en.jsx and should be updated once in a while with new releases.
+ * To make other contributors' life easier, please REMEMBER:
+ *   1. to add your new string here; and
+ *   2. to remove old strings that are no longer needed; and
+ *   3. to sort the strings by the key.
+ *   4. Respect the language standards we have set here please!
+ * Thanks!
+ */
 const he = {
   "account.block": "חסימת @{name}",
   "account.disclaimer": "משתמש זה מגיע מקהילה אחרת. המספר הזה עשוי להיות גדול יותר.",
@@ -31,6 +41,15 @@ const he = {
   "compose_form.spoiler_placeholder": "אזהרת תוכן",
   "compose_form.spoiler": "הסתרה מאחורי אזהרת תוכן",
   "emoji_button.label": "הוספת אמוג'י",
+  "emoji_button.search": "חיפוש...",
+  "emoji_button.people": "אנשים",
+  "emoji_button.nature": "טבע",
+  "emoji_button.food": "אוכל ושתיה",
+  "emoji_button.activity": "פעילות",
+  "emoji_button.travel": "טיולים ואתרים",
+  "emoji_button.objects": "חפצים",
+  "emoji_button.symbols": "סמלים",
+  "emoji_button.flags": "דגלים",
   "empty_column.community": "טור הסביבה ריק. יש לפרסם משהו כדי שדברים יתרחילו להתגלגל!",
   "empty_column.hashtag": "אין כלום בהאשתג הזה עדיין.",
   "empty_column.home.public_timeline": "בפרהסיה",
@@ -100,8 +119,10 @@ const he = {
   "status.mention": "פניה אל @{name}",
   "status.open": "הרחבת הודעה",
   "status.reblog": "הדהוד",
+  "status.cannot_reblog": "לא ניתן להדהד הודעה זו",
   "status.reblogged_by": "הודהד על ידי {name}",
   "status.reply": "תגובה",
+  "status.replyAll": "תגובה לכולם",
   "status.report": "דיווח על @{name}",
   "status.sensitive_warning": "תוכן רגיש",
   "status.sensitive_toggle": "ללחוץ כדי לראות",
