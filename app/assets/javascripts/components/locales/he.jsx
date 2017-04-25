@@ -99,7 +99,7 @@ const he = {
   "privacy.direct.long": "הצג רק למי שהודעה זו פונה אליו",
   "privacy.direct.short": "הודעה ישירה",
   "privacy.private.long": "הצג לעוקבים מקומיים בלבד",
-  "privacy.private.short": "פרטי",
+  "privacy.private.short": "לעוקבים בלבד",
   "privacy.public.long": "הצג בפומבי",
   "privacy.public.short": "פומבי",
   "privacy.unlisted.long": "לא להצגה בפרהסיה",
