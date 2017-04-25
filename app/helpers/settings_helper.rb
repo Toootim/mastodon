@@ -25,6 +25,7 @@ module SettingsHelper
     'zh-HK': '繁體中文（香港）',
     'zh-TW': '繁體中文（臺灣）',
     bg: 'Български',
+    he: 'עברית',
     id: 'Bahasa Indonesia',
   }.freeze
 
