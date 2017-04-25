@@ -12,6 +12,7 @@ module SettingsHelper
     fa: 'فارسی',
     fi: 'Suomi',
     fr: 'Français',
+    he: 'עברית',
     hr: 'Hrvatski',
     hu: 'Magyar',
     id: 'Bahasa Indonesia',
