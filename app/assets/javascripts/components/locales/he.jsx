@@ -36,7 +36,7 @@ const he = {
   "column.public": "בפרהסיה",
   "compose_form.placeholder": "מה עובר לך בראש?",
   "compose_form.privacy_disclaimer": "הודעתך הפרטית תשלח למשתמשים על {domains}. האם ניתן לסמוך על {domainsCount, plural, one {שרת זה} other {שרתים אלו}}? פרטיות ההודעה קיימת רק על שרתי מסטודון. אם {domains} {domainsCount, plural, one {הוא לא שרת מסטודון} other {הם לא שרתי מסטודון}}, לא יהיה שום סימן שההודעה פרטית, והוא עשוי להיות מקודם או להחשף למשתמשים שלא ברשימת היעד.",
-  "compose_form.publish": "חצרץ!",
+  "compose_form.publish": "חצרוץ",
   "compose_form.sensitive": "סימון תוכן כרגיש",
   "compose_form.spoiler_placeholder": "אזהרת תוכן",
   "compose_form.spoiler": "הסתרה מאחורי אזהרת תוכן",
