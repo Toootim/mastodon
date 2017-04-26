@@ -23,5 +23,8 @@ export function isRtl(text) {
     return false;
   }
 
+  // Remove mentions before counting characters to decide RTL ratio
+  text.gsub!( /@[0-9A-Za-z_]+/, '' )
+
   return matches.length / text.trim().length > 0.3;
 };
