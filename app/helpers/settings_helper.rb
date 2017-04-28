@@ -8,7 +8,6 @@ module SettingsHelper
     de: 'Deutsch',
     eo: 'Esperanto',
     es: 'Español',
-    eo: 'Esperanto',
     fa: 'فارسی',
     fi: 'Suomi',
     fr: 'Français',

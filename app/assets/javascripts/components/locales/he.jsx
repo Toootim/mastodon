@@ -10,7 +10,7 @@
  */
 const he = {
   "account.block": "חסימת @{name}",
-  "account.disclaimer": "משתמש זה מגיע מקהילה אחרת. המספר הזה עשוי להיות גדול יותר.",
+  "account.disclaimer": "&rlm;משתמש זה מגיע מקהילה אחרת. המספר הזה עשוי להיות גדול יותר.",
   "account.edit_profile": "עריכת פרופיל",
   "account.follow": "מעקב",
   "account.followers": "עוקבים",
@@ -25,7 +25,6 @@ const he = {
   "account.unfollow": "הפסקת מעקב",
   "account.unmute": "הפסקת השתקת @{name}",
   "boost_modal.combo": "ניתן להקיש {combo} כדי לדלג בפעם הבאה",
-  "column_back_button.label": "חזרה",
   "column.blocks": "חסימות",
   "column.community": "בסביבה",
   "column.favourites": "חיבובים",
@@ -34,6 +33,7 @@ const he = {
   "column.mutes": "השתקות",
   "column.notifications": "התראות",
   "column.public": "בפרהסיה",
+  "column_back_button.label": "אחורה",
   "column_subheading.navigation": "ניווט",
   "column_subheading.settings": "אפשרויות",
   "compose_form.lock_disclaimer": "חשבונך אינו {locked}. כל אחד יוכל לעקוב אחריך כדי לקרוא את הודעותיך המיועדות לעוקבים בלבד.",
