@@ -1,1 +1,6 @@
 @import 'application';
+
+@media screen and (min-width: 1025px) {
+     .drawer {width: 20vw; min-width: 250px; }
+     .column {width: 22vw; min-width: 250px; }
+}
