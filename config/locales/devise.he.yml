@@ -12,7 +12,7 @@ he:
       last_attempt: '&rlm;יש לך עוד ניסיון אחד לפני נעילת החשבון.'
       locked: '&rlm;חשבון זה נעול.'
       not_found_in_database: "&rlm;%{authentication_keys} או סיסמא לא נכונים."
-      timeout: '&rlm;פג תוקף השהיה בחשבון. נא להכנס מחדש על מנת להמשיך.'
+      timeout: '&rlm;פג תוקף השעייה בחשבון. נא להכנס מחדש על מנת להמשיך.'
       unauthenticated: '&rlm;יש להרשם או להכנס לחשבון על מנת להמשיך.'
       unconfirmed: '&rlm;יש לאמת את כתובת הדוא"ל על מנת להמשיך.'
     mailer:
